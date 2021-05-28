@@ -1,0 +1,76 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Node2D.gd" type="Script" id=1]
+[ext_resource path="res://music/menu2.ogg" type="AudioStream" id=2]
+[ext_resource path="res://image/background.png" type="Texture" id=3]
+[ext_resource path="res://image/Без имени.png" type="Texture" id=4]
+
+[node name="MainScreen" type="Control"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="TextureRect" parent="."]
+show_behind_parent = true
+margin_left = 0.533325
+margin_top = -1.61685
+margin_right = 1024.53
+margin_bottom = 598.383
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Play" type="Button" parent="."]
+margin_left = 428.021
+margin_top = 454.43
+margin_right = 556.021
+margin_bottom = 474.43
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Play"]
+margin_left = -0.129944
+margin_top = 1.42786
+margin_right = 127.87
+margin_bottom = 17.4279
+text = "New game"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Exit" type="Button" parent="."]
+margin_left = 428.272
+margin_top = 477.266
+margin_right = 556.272
+margin_bottom = 497.266
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Exit"]
+margin_right = 128.0
+margin_bottom = 16.0
+text = "Exit"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+autoplay = true
+
+[node name="game name" type="Sprite" parent="."]
+position = Vector2( 542.824, 394.002 )
+scale = Vector2( 0.394132, 0.561725 )
+texture = ExtResource( 4 )

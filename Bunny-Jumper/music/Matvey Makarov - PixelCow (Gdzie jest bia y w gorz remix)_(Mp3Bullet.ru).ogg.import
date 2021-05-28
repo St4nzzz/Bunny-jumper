@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Matvey Makarov - PixelCow (Gdzie jest bia y w gorz remix)_(Mp3Bullet.ru).ogg-985cc4d9c00d22a329b2e259244e64e7.oggstr"
+
+[deps]
+
+source_file="res://music/Matvey Makarov - PixelCow (Gdzie jest bia y w gorz remix)_(Mp3Bullet.ru).ogg"
+dest_files=[ "res://.import/Matvey Makarov - PixelCow (Gdzie jest bia y w gorz remix)_(Mp3Bullet.ru).ogg-985cc4d9c00d22a329b2e259244e64e7.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
